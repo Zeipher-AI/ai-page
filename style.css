@@ -1,0 +1,195 @@
+/* CSS Document */
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	
+	
+}
+
+
+
+iframe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+	z-index: -1;
+	
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+body{
+	background: #0e0e10;
+	overflow: hidden;
+	
+}
+
+.lore{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	
+	
+}
+
+header{
+	opacity: .0;
+}
+
+.loginb {
+	
+	text-decoration: none;
+	margin-right: 20px;
+	margin-top: 10px;
+	color: white;
+	border: 2px #ee7854 solid;
+	border-radius: 15px;
+	padding: 7px 10px;
+	font-family: Helvetica;
+	font-size: 15px;
+	transition: border .5s;
+	margin-left: auto;
+	cursor: pointer;
+	
+}
+
+.loginb:hover{
+	text-decoration: none;
+	margin-right: 20px;
+	margin-top: 10px;
+	color: white;
+	border: 2px #edda09 solid;
+	border-radius: 15px;
+	padding: 7px 10px;
+	font-family: Helvetica;
+	font-size: 15px;
+	transition: border .5s;
+		
+}
+
+.registerb {
+	
+	text-decoration: none;
+	margin-right: 20px;
+	margin-top: 10px;
+	color: white;
+	border: 2px #edda09 solid;
+	border-radius: 15px;
+	padding: 7px 10px;
+	font-family: Helvetica;
+	font-size: 15px;
+	transition: border .5s;
+	cursor: pointer;
+}
+
+.registerb:hover{
+	text-decoration: none;
+	margin-right: 20px;
+	margin-top: 10px;
+	color: white;
+	border: 2px #ee7854 solid;
+	border-radius: 15px;
+	padding: 7px 10px;
+	font-family: Helvetica;
+	font-size: 15px;
+	transition: border .5s;
+		
+}
+
+.lore img{
+	align-items: flex-start;
+	align-content: flex-start;
+	justify-content: flex-start;
+	width: 120px; 
+	height: 50px;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+#preview{
+	margin-top: 44px;
+	color: white;
+	font-family: Helvetica;
+	opacity: .15;
+	font-size: 12px;
+	margin-left: -12px;
+	
+}
+
+.footer{
+	position: absolute;
+	width: 100%;
+	bottom: 5px;
+	
+}
+
+.footer a{
+	
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 10px;
+  
+}
+
+button {
+  background-color: #ee7854;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 15px;
+  transition: all .5s;
+ 
+	
+}
+
+button:hover {
+  background-color: #edda09;
+  color: black;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 15px;
+  transition: all .5s;
+
+}
+
+
+
+form{
+	align-items: center;
+	margin-top: 20%;
+}
+
+label {
+	color: white;
+	font-family: Helvetica;
+	
+}
+
+#slog{
+	color: white;
+	font-family: Helvetica;
+	position: relative;
+	margin-top: 10%;
+	margin-left: 50px;
+	font-size: 150px;
+	
+
+}
+
