@@ -81,7 +81,7 @@ header{
 	margin-right: 20px;
 	margin-top: 10px;
 	color: black;
-	border: 2px #ffffff solid;
+	border: 2px #0c0d0e solid;
 	border-radius: 15px;
 	padding: 7px 10px;
 	font-family: Helvetica;
@@ -95,7 +95,7 @@ header{
 	margin-right: 20px;
 	margin-top: 10px;
 	color: black;
-	border: 2px #0c0d0e solid;
+	border: 2px #ffffff solid;
 	border-radius: 15px;
 	padding: 7px 10px;
 	font-family: Helvetica;
@@ -109,7 +109,7 @@ header{
 	align-content: flex-start;
 	justify-content: flex-start;
 	width: 120px; 
-	height: 100px;
+	height: 105px;
 	margin-top: 7px;
 	margin-left: 10px;
 }
