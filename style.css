@@ -4,19 +4,13 @@ form{
 	display: flex;
 	flex-direction: column;
 	align-content: center;
-	
-	
 }
-
-
 
 iframe{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	
 	z-index: -1;
-	
 }
 
 *{
@@ -24,115 +18,65 @@ iframe{
 	margin: 0;
 }
 
-
-
 body{
 	background: #0e0e10;
 	overflow: hidden;
-	
+	color: white;
 }
 
-.lore{
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	
-	
+@keyframes pulse-animation {
+	0% {
+		box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.3);
+	}
+
+	100% {
+		box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+	}
 }
 
-header{
-	opacity: .0;
-}
-
-.loginb {
-	
+.button {
 	text-decoration: none;
-	margin-right: 20px;
+	margin-right: 40px;
 	margin-top: 10px;
-	color: black;
-	border: 2px #0c0d0e solid;
+	border: 2px white solid;
 	border-radius: 15px;
-	padding: 7px 10px;
+	padding: 15px 20px;
 	font-family: Helvetica;
-	font-size: 15px;
+	font-size: 20px;
 	transition: border .5s;
 	margin-left: auto;
 	cursor: pointer;
-	
+	color: white;
+	animation: pulse-animation 2s infinite;
 }
 
-.loginb:hover{
-	text-decoration: none;
-	margin-right: 20px;
-	margin-top: 10px;
+.button:hover{
+	transition: .5s;
+	background: white;
 	color: black;
-	border: 2px #ffffff solid;
-	border-radius: 15px;
-	padding: 7px 10px;
-	font-family: Helvetica;
-	font-size: 15px;
-	transition: border .5s;
-		
 }
 
-.registerb {
-	
-	text-decoration: none;
-	margin-right: 20px;
-	margin-top: 10px;
-	color: black;
-	border: 2px #0c0d0e solid;
-	border-radius: 15px;
-	padding: 7px 10px;
-	font-family: Helvetica;
-	font-size: 15px;
-	transition: border .5s;
-	cursor: pointer;
-}
-
-.registerb:hover{
-	text-decoration: none;
-	margin-right: 20px;
-	margin-top: 10px;
-	color: black;
-	border: 2px #ffffff solid;
-	border-radius: 15px;
-	padding: 7px 10px;
-	font-family: Helvetica;
-	font-size: 15px;
-	transition: border .5s;
-		
+.buttons {
+	margin-top: 50px;
 }
 
 .lore img{
-	align-items: flex-start;
-	align-content: flex-start;
-	justify-content: flex-start;
 	width: 120px; 
 	height: 105px;
 	margin-top: 7px;
+}
+
+.lore {
 	margin-left: 10px;
 }
 
 #preview{
-	margin-top: 44px;
 	color: white;
 	font-family: Helvetica;
-	opacity: .15;
+	opacity: .35;
 	font-size: 12px;
-	margin-left: -12px;
-	
-}
-
-.footer{
-	position: absolute;
-	width: 100%;
-	bottom: 5px;
-	
-}
-
-.footer a{
-	
+	margin-left: 35px;
+	margin-top: -30px;
 }
 
 input[type=text], input[type=password] {
@@ -166,10 +110,7 @@ button:hover {
   width: 30%;
   border-radius: 15px;
   transition: all .5s;
-
 }
-
-
 
 form{
 	align-items: center;
@@ -182,14 +123,25 @@ label {
 	
 }
 
+.content {
+	margin-left: 50px;
+	margin-top: 50px;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	height: 100vh;
+}
+
 #slog{
 	color: white;
 	font-family: Helvetica;
 	position: relative;
-	margin-top: 10%;
-	margin-left: 50px;
 	font-size: 150px;
-	
-
 }
-
