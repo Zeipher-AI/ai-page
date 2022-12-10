@@ -36,15 +36,14 @@ body{
 
 .button {
 	text-decoration: none;
-	margin-right: 40px;
 	margin-top: 10px;
+	margin-right: 20px;
 	border: 2px white solid;
 	border-radius: 15px;
 	padding: 15px 20px;
 	font-family: Helvetica;
 	font-size: 20px;
 	transition: border .5s;
-	margin-left: auto;
 	cursor: pointer;
 	color: white;
 	animation: pulse-animation 2s infinite;
@@ -58,6 +57,11 @@ body{
 
 .buttons {
 	margin-top: 50px;
+	display: inline-flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
 }
 
 .lore img{
@@ -79,15 +83,6 @@ body{
 	margin-top: -30px;
 }
 
-input[type=text], input[type=password] {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border-radius: 10px;
-  
-}
-
 button {
   background-color: #ffffff;
   color: white;
@@ -97,8 +92,6 @@ button {
   width: 50%;
   border-radius: 15px;
   transition: all .5s;
- 
-	
 }
 
 button:hover {
@@ -110,11 +103,6 @@ button:hover {
   width: 30%;
   border-radius: 15px;
   transition: all .5s;
-}
-
-form{
-	align-items: center;
-	margin-top: 20%;
 }
 
 label {
@@ -143,5 +131,5 @@ main {
 	color: white;
 	font-family: Helvetica;
 	position: relative;
-	font-size: 150px;
+	font-size: clamp(3.5rem, -0.875rem + 8.333vw, 7rem);
 }
